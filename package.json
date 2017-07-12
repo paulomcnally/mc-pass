@@ -1,0 +1,18 @@
+{
+  "name": "mc-pass",
+  "version": "0.0.1",
+  "description": "Private description",
+  "main": "index.js",
+  "repository": "https://github.com/paulomcnally/security.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "pass": "cli.js"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "copy-paste": "^1.3.0",
+    "prompt": "^1.0.0",
+    "randomstring": "^1.1.5"
+  }
+}
