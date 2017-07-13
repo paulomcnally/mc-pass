@@ -14,6 +14,8 @@ Generate an encrypted password for your accounts on the internet.
 
     $ pass facebook zuck
 
+> The result will be ready in clipboard.
+
 ## Test
 
 Create .env file with:
@@ -25,6 +27,12 @@ And run:
 
     $ npm test
 
-> The result will be ready in clipboard.
+To show salt:
+
+    $ cat $HOME/.password
+
+Tow show accounts log
+
+    $ cat $HOME/.password-accounts.json
 
 **Tested on ubuntu.**
