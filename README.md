@@ -14,6 +14,16 @@ Generate an encrypted password for your accounts on the internet.
 
     $ pass facebook zuck
 
+## Test
+
+Create .env file with:
+
+    PASS_RETURN=true
+    PASS_DEFAULT=bfb106205382c679eaacc2d6a502edac
+
+And run:
+
+    $ npm test
 
 > The result will be ready in clipboard.
 
