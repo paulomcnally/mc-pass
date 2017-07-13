@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 'use strict';
-const Password = require('./lib/password')
+const Password = require('./lib/password');
 
-// set argument
-let service = process.argv[2] || 'default';
-let username = process.argv[3] || 'default';
+// Set argument
+const service = process.argv[2] || 'default';
+const username = process.argv[3] || 'default';
 
-// instance class
-let password = new Password(service, username);
+// Instance class
+const password = new Password(service, username);
 
-// call result to clipboard
+// Call result to clipboard
 password.get();
