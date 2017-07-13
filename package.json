@@ -1,6 +1,6 @@
 {
   "name": "mc-pass",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Generate an encrypted password for your accounts on the internet.",
   "main": "index.js",
   "repository": "https://github.com/paulomcnally/security.git",
