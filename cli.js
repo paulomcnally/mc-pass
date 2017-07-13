@@ -9,5 +9,10 @@ const username = process.argv[3] || 'default';
 // Instance class
 const password = new Password(service, username);
 
-// Call result to clipboard
-password.get();
+if (service === 'qrcode' && username === 'show') {
+  // Show qrCode
+  password.qrCode();
+} else {
+  // Call result to clipboard
+  password.get();
+}

@@ -16,6 +16,12 @@ Generate an encrypted password for your accounts on the internet.
 
 > The result will be ready in clipboard.
 
+## Show SALT in QRCode
+
+To synchronize your SALT with mobile devices use the QR Code.
+
+    $ pass qrcode show
+
 ## Test
 
 Create .env file with:
