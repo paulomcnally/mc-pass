@@ -2,9 +2,9 @@
 
 Generate an encrypted password for your accounts on the internet.
 
-![travis-ci](https://travis-ci.org/paulomcnally/mc-pass.svg)
+[![travis-ci](https://travis-ci.org/paulomcnally/mc-pass.svg)](https://travis-ci.org/paulomcnally/mc-pass)
 
-![travis-ci](https://nodei.co/npm/mc-pass.png)
+[![travis-ci](https://nodei.co/npm/mc-pass.png)](https://www.npmjs.com/package/mc-pass)
 
 ## Install
 
