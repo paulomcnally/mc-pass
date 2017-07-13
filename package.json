@@ -6,6 +6,9 @@
   "repository": "https://github.com/paulomcnally/security.git",
   "author": "Paulo McNally <paulomcnally@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
   "bin": {
     "pass": "cli.js"
   },
